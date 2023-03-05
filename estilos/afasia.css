@@ -32,3 +32,6 @@ a.DocArtigo{
 a.DocArtigo:hover{
     text-decoration: underline;
 }
+section#artigos-publicados{
+    padding-left: 20px;
+}

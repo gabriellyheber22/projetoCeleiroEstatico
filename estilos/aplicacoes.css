@@ -2,6 +2,9 @@
 span{
     font-weight: bolder;
 }
+article{
+    padding-left: 10px;
+}
 h1.aplicacoes{
     text-align: left;
 }
@@ -36,4 +39,8 @@ p.TituloRegistro{
 }
 p.TituloRegistro:hover{
     text-decoration: underline;
+}
+picture img{
+    display: block;
+    margin: auto;
 }

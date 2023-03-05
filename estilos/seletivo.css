@@ -2,9 +2,9 @@
 section#artigo h1{
     text-align: start;
 }
-section#artigo{
-    margin: 0px 125px;
-}
+ section#artigo{
+    margin: 0px;
+} 
 div.Editais {
     display: block;
     margin: auto;
@@ -14,7 +14,7 @@ div.DocEditais{
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding-bottom: 10px;
-    width: 50%;
+    width: 20%;
 }
 picture{
     align-items: start;

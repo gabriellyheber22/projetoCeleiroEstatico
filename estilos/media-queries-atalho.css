@@ -29,7 +29,14 @@
         justify-content: center
         
     }
-   
+    section#artigo {
+        background-color: white;
+        padding: 10px;
+        display: block;
+        margin-left: 25%;
+        width: 760px;
+        text-indent: 30px;
+    }
 
     div.itens-atalho li {
         list-style: none;
