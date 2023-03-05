@@ -1,67 +1,94 @@
 @charset "UTF-8";
-/*Tela pequenas até 600px
-Celulares de 600px até 768px
-Tablets de 768px até 992px
-Desktop de 992px até 1200px
-Telas grandes acima de 1200*/
 
-
-
-
-    article{
-        margin: 2px;
-       
-    }
-    article#article{
-        width: 78vw;
-    }
+    
     main {
         position: relative;
     }
+    aside hr{
+        width: 195px;
+        margin: 2px;
+    }
     
-    section#artigo {
-        background-color: white;
-        padding: 10px;
-        display: block;
-        margin-left: 36%;
-        width: 900px;
-        text-indent: 30px;
-    }
-    section#atalho {
-       position: absolute;
-        margin: 0px 10px;
-        top: 32%;
-        left: 40px;
-        width: 290px;
-    }
+    
+   
     aside{
-        padding: 5px 5px;
-        border-radius: 10px;
+        background-color: rgb(218, 218, 218);
+        padding: 5px 0px;
         margin: auto;
+        position: absolute;
+        margin: 0px 10px;
+        top: 26%;
+        left: 5px;
+        width: 245px;
     }
-    aside a{
-         text-shadow: none;
-        
-    }
+    
     div.Atalho-container {
-        height: 300px;
+        height: 225px;
         columns: 170px 1;
-        width: 280px;
+        width: 202px;
         justify-content: center
         
     }
-    ul#lista-atalho{
-       margin: 0px;
-       padding: 0px;
-        
-    }
+   
 
     div.itens-atalho li {
         list-style: none;
         padding: 1px 0px;
         margin: 1px 0px;
         text-align: center;
-        font-weight: bolder;
-        font-size: 1em;
+        font-weight: bold;
+        font-size: 10pt;
+        width: 225px;
     }
 
+    aside {
+        background-color: rgb(218, 218, 218);
+        padding: 10px;
+        margin: auto;
+    
+    }
+    
+    aside h5 {
+        padding: 0px 15px;
+        margin: 0px;
+        
+    
+    }
+    
+    ul#lista-atalho {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    aside li {
+        background-color: rgb(255, 255, 255);
+        border: 0.5px solid rgba(0, 0, 0, 0.438);
+        border-radius: 3px;
+        padding: 5px;
+        margin: 0px 2px;
+        display: block;
+        text-align: center;
+        text-shadow: none;
+    }
+    
+    aside li:hover {
+        background-color: #33552c96;
+        color: white;
+    }
+    
+    aside a {
+        color: #33552C;
+        text-decoration: none;
+        display: block;
+        padding: 5px;
+        font-weight: bold;
+        text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.445);
+        text-shadow: none;
+    }
+    
+    aside a:hover {
+        background-color: #33552c96;
+        color: white;
+        text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.445);
+    }

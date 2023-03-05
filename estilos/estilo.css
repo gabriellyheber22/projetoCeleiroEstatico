@@ -25,9 +25,13 @@ h2 {
 }
 
 /*Estilizações do Cabeçalho*/
+.wrapper{
+    width:1000px;
+    
+}
 header {
     background-color: #33552C;
-    display: block;
+    width: 100%;
 
 }
 
@@ -39,7 +43,7 @@ header img {
 
 header h1 {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: bold;
     padding: 5px 10px;
     margin: 0px;
@@ -100,13 +104,6 @@ menu>ul>li>a:hover {
 
 
 
-
-
-
-
-
-
-/*------------------------------*/
 
 
 /*Estilizações dos Item flutuante do Menu*/
@@ -178,7 +175,9 @@ span#icon-menu-suspenso2 {
 }
 
 /*Estilização do Carrossel*/
-
+div#carouselExampleSlidesOnly{
+    width: 100%;
+}
 
 img.d-block {
     width: 100%;
@@ -189,7 +188,7 @@ img.d-block {
 /*Estilização da Tag <article>*/
 
 article {
-    width: 78vw;
+    width: 100%;
     margin: auto;
     background-color: white;
     /* box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.438); */
@@ -203,7 +202,14 @@ article h1 {
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.226);
     font-weight: bolder;
 }
-
+section#artigo {
+    background-color: white;
+    padding: 10px;
+    display: block;
+    margin-left: 25%;
+    width: 760px;
+    text-indent: 30px;
+}
 article h2 {
     font-size: 1.2em;
 }
@@ -215,9 +221,7 @@ article p {
     padding: 0px;
 }
 
-article#article {
-    width: 95vw;
-}
+
 
 /*Estilização da Seção de Artigo*/
 section#artigo {
@@ -236,89 +240,6 @@ picture {
 picture>img {
     display: block;
     margin: auto;
-    
-}
-
-/*Estilização do Aside: Atalho*/
-aside {
-    background-color: rgb(218, 218, 218);
-    padding: 10px;
-    margin: auto;
-
-}
-
-aside>h3 {
-    padding: 5px 15px;
-    font-size: 1.3em;
-
-}
-
-ul#lista-atalho {
-    list-style-type: none;
-    padding: 10px 16px;
-}
-
-aside li {
-    background-color: rgb(255, 255, 255);
-    border: 0.5px solid rgba(0, 0, 0, 0.438);
-    border-radius: 5px;
-    padding: 5px;
-    margin: 0px 2px;
-    display: block;
-    text-align: center;
-
-}
-
-aside li:hover {
-    background-color: #33552c96;
-    color: white;
-}
-
-aside a {
-    color: #33552C;
-    text-decoration: none;
-    display: block;
-    padding: 10px;
-    font-weight: bold;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.445);
-}
-
-aside a:hover {
-    background-color: #33552c96;
-    color: white;
-    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.445);
-}
-
-/*Estilização da área Fale Conosco*/
-section#fale-conosco {
-    padding: 20px;
-}
-
-div.mensagem {
-    margin-top: 20px;
-    width: 78vw;
-}
-
-div.botao {
-    text-align: right;
-}
-
-input#botao {
-    padding: 10px 50px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-div.name input {
-    border-radius: 5px;
-    padding: 8px 0px;
-    width: 80vw;
-    border-color: white;
-}
-
-textarea {
-    border-radius: 5px;
-    width: 80vw;
 
 }
 

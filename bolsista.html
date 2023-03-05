@@ -14,8 +14,10 @@
     
 </head>
 
-<body onresize="mudouTamanho()">
+<body>
+    <div class="wrapper">
     <header>
+        <div class="wrapper">
         <div class="cabecalho">
             
                 <div class=" itemCabecalho">
@@ -61,10 +63,13 @@
                 </menu>
             </div>
         </div>
-
+    </div>
     </header>
+</div>
     <main>
+        
         <article class="bolsista">
+            <div class="wrapper">
             <section id="artigo">
                 
                 <h1 class="bolsista"> Bolsistas <img class="icone-bolsista" src="imagens/logos/icone-bolsista.png"
@@ -208,20 +213,24 @@
                 </ul>
 
             </section>
-
-
+        
+        </div>
         </article>
+    
     </main>
-    <footer>
-
-        <hr>
-        <section id="rodape">
-            <p>Gabrielly Héber Azevedo da Cruz, 2023</p>
-            <p>Campus Universitário Dep. Renê Barbour - Barra do Bugres-MT.</p>
-        </section>
-    </footer>
+    <div class="wrapper">
+        <footer>
+            <div class="wrapper">
+            <hr>
+            <section id="rodape">
+                <p>Gabrielly Héber Azevedo da Cruz, 2023</p>
+                <p>Campus Universitário Dep. Renê Barbour - Barra do Bugres-MT.</p>
+            </section>
+        </div>
+        </footer>
+    </div>
     <!--Funções de JavaScript-->
-    <script src="javascript/responsividade.js"></script>
+    
     <script src="javascript/menu.js"></script>
     <script src="javascript/listaBolsista.js"></script>
 </body>

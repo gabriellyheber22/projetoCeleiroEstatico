@@ -17,20 +17,21 @@
     }
     section#fale-conosco{
         padding:  20px;
-
+        
     }
     section#fale-conosco h1{
         font-size: 1.4em;
     }
     div.mensagem{
         margin-top: 0px;
-        width:  50vw;
+        width:  50%;
         
-    
+        
     }
     div.botao{
         text-align: right;
-        
+      
+         
       
     }
     input#botao{
@@ -39,18 +40,30 @@
         cursor: pointer;
         
         
+        
     }
     div.name input{
         border-radius: 5px;
         padding: 2px 0px;
-        width: 50vw;
+        width: 100%;
         border-color: white;
+      
+        
     }
     
     textarea{
         border-radius: 5px;
-        width: 50vw;
+        width: 100%;
         height: 100px;
+      
     
     }
+    
+    
+    
+   
+    
+   
+    
+    
     

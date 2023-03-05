@@ -2,15 +2,30 @@
 section#artigo h1{
     text-align: start;
 }
+section#artigo{
+    margin: 0px 125px;
+}
 div.Editais {
     display: block;
+    margin: auto;
 }
 div.DocEditais{
     display: inline-block;
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding-bottom: 10px;
+    width: 50%;
 }
+picture{
+    align-items: start;
+    margin: 0px;
+}
+img{
+display: block;
+align-items: start;
+margin: 0px 0px;
+}
+
 div.InfoEditais{
     display: inline-block;
     text-indent: none;

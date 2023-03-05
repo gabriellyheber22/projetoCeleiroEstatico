@@ -17,8 +17,10 @@
     <link rel="stylesheet" href="estilos/media-queries-faleConosco.css">
 </head>
 
-<body onresize="mudouTamanho()">
+<body>
+    <div class="wrapper">
     <header>
+        <div class="wrapper">
         <div class="cabecalho">
             <!--Div para controle do cabeçalho em celulares-->
 
@@ -62,10 +64,14 @@
                 </menu>
             </div>
         </div>
-
+    </div>
     </header>
+</div>
+
     <main>
+        
         <section id="carrossel">
+            <div class="wrapper">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -79,10 +85,11 @@
                     </div>
                 </div>
             </div>
+        </div>
         </section>
-       
-        <article id="article">
-            
+    
+        <article>
+            <div class="wrapper">
             <section id="artigo">
                 <h1>Projeto Celeiro de Software e Hardware</h1>
                 <p>O Celeiro de Software e Hardware, é um projeto criado pelo Professor Mestre Alexandre Berndt,
@@ -102,7 +109,7 @@
                     do Bugres.</p>
                 <br>
                 <picture>
-                   <img src="imagens/programador_880.jpg" alt="Imagem Programador">
+                   <img src="imagens/programador600.jpg" alt="Imagem Programador">
                 </picture>
                 <br>
                 <p>O desenvolvimento de projetos de software utilizando metodologias ágeis com foco na participação
@@ -110,12 +117,13 @@
                     dos usuários no projeto de interfaces de software; e o desenvolvimento de artefatos de hardware
                     utilizando a prototipagem de circuitos eletrônicos.</p>
             </section>
-            
+            </div>
         </article>
-        <section id="atalho">
+       
             <aside>
-                <h3>Atalho</h3>
-                <hr>
+                <div class="wrapper">
+                <h5>Atalho</h5>
+                <hr >
                 <div class="Atalho-container">
                     <ul id="lista-atalho">
                         <div class="itens-atalho">
@@ -139,13 +147,16 @@
                         </div>
                     </ul>
                 </div>
+            </div>
             </aside>
-        </section>
+        
 
 
 
     </main>
+    <div class="wrapper">
     <footer>
+        <div class="wrapper">
         <section id="fale-conosco">
             <h1>Fale com o Projeto Celeiro</h1>
             <hr>
@@ -184,14 +195,19 @@
                     </form>
                 </div>
             </div>
+        
         </section>
-
+    </div>
         <section id="rodape">
+            <div class="wrapper">
             <hr>
             <p>Gabrielly Héber Azevedo da Cruz, 2023</p>
             <p>Campus Universitário Dep. Renê Barbour - Barra do Bugres-MT.</p>
+        </div>
         </section>
+    
     </footer>
+</div>
     <!--Funções de JavaScript-->
     
     <script src="javascript/menu.js"></script>
