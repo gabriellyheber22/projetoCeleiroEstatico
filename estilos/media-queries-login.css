@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* Typical Breakepoints
+Tela pequenas até 600px
+Celulares de 600px até 768px
+Tablets de 768px até 992px
+Desktop de 992px até 1200px
+Telas grandes acima de 1200*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+    section#login{
+        
+        width: 80vw;
+        height: 280px; 
+        background-size: contain;
+        background-position: left bottom;
+        
+       
+    }
+    div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        border-right: 1px solid #33552C;
+
+
+    }
+    div#formulario{
+        float: right;
+        width: 70%;
+        height: 100%;
+        
+        
+    }
+    
+    
+}
+
+
+@media screen and (min-width:991px){
+    section#login{
+        width: 950px;  
+        height: 350px;
+    }
+    div#imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-left: 1px solid #33552C;
+    }
+    div#formulario{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    div#formulario h1.formulario{
+        font-size: 2em;
+    }
+    div#formulario p{
+        font-size: 1.1em;
+        margin: 20px 0px;
+    }
+
+}
+

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+section#artigo h1{
+    text-align: start;
+}
+div.Editais {
+    display: block;
+}
+div.DocEditais{
+    display: inline-block;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+div.InfoEditais{
+    display: inline-block;
+    text-indent: none;
+}
+div.InfoEditais p{
+    text-indent: 0px;
+    text-align: left;
+}
+a{
+    color: darkblue;
+}
+a:hover{
+    color: rgb(118, 148, 158);
+}

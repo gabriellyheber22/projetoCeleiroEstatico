@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Celeiro</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="estilos/estilo.css">
+    
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <div class="cabecalho">
+            
+                <div class=" itemCabecalho">
+                    <a href="index.html">
+                        <img src="imagens/logos/Brasão Unemat - Colorido (35).png" alt="Logo da UNEMAT">
+                    </a>
+                </div>
+                <div class=" itemCabecalho">
+                    <a href="index.html">
+                        <h1>Projeto Celeiro</h1>
+                    </a>
+                </div>
+
+                
+            
+            
+            <div class=" itemCabecalho">
+                <menu id="itens">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li class="menu-suspenso" onclick="clickMenuSuspenso()">
+
+                            <a href="#" class="link-suspenso">O Celeiro<span id="icon-menu-suspenso"
+                                    class="material-symbols-outlined">arrow_drop_down</span></a>
+                            <!--Icone para indicar menu suspenso-->
+
+
+                            <div class="itens-menu" id="itensSuspensos">
+                                <a href="bolsista.html">Bolsistas</a>
+                                <a href="seletivo.html">Seletivo</a>
+                        </li>
+                        <li class="menu-suspenso" onclick="clickMenuSuspenso2()">
+                            <a href="#" class="link-suspenso">Projetos<span id="icon-menu-suspenso2"
+                                    class="material-symbols-outlined">arrow_drop_down</span></a>
+                            <div class="itens-menu" id="itensSuspensos2">
+                                <a href="projetoSigmetamat.html">Projeto Sigmetamat</a>
+                                <a href="projetoAfasia.html">Projeto Afasia</a>
+                        </li>
+                        <li><a href="aplicacoes.html">Aplicações</a></li>
+                        <li><a href="parcerias.html">Parcerias</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </menu>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <article>
+            <section id="artigo">
+
+                <h1 style="text-align: left;" >Projeto Sigmetamat</h1>
+                <hr>
+                <br>
+                <h2 style="text-align: justify;">Mapeamento e Avaliação Sócio Econômica e produtiva das Atividades
+                    Mineradoras no Estado de Mato Grosso</h2> <br>
+                <p>Sig Metamat é um Projeto desenvolvido para sistematizar as informações coletadas pelo Projeto de
+                    Mapeamento e Avaliação Sócio Econômica e Produtiva das Atividades Mineradoras do Estado de Mato
+                    Grosso, uma proposta de iniciativa do corpo de pesquisadores da Universidade do Estado de Mato
+                    Grosso, Campus de Barra do Bugres e vinculados ao Grupo de Pesquisa em Modelagem Matemática e
+                    Pesquisa Operacional do Centro Tecnológico de Mato Grosso – CTMAT, tendo como coordenador o Doutor
+                    em Engenharia de Produção pela Universidade Federal de Pernambuco Eduardo José Oenning, cujo o
+                    objetivo é elaborar um inventário de produção e sócio-econômico do setor de mineração do estado de
+                    Mato Grosso através de um levantamento de suas principais atividades mineradoras.</p> <br>
+
+                <h2>O que é o Projeto Sig Metamat?</h2> <br>
+                <p>O projeto Sig Metamat é uma bolsa de iniciação cientifica que teve duração de 12 meses, iniciando em
+                    31 de outubro de 2018 e finalizando em 30 de outubro de 2019, o referido projeto se trata de uma
+                    iniciativa do Projeto de Extensão Celeiro de Software e Hardware, administrado pelo Prof. Me.
+                    Alexandre Berndt em parceria com a Fundação de Amparo a Pesquisa do Estado de Mato Grosso (FAPMET),
+                    Universidade do Estado de Mato Grosso (UNEMAT) Campus Dep. Renê Barbour.</p> <br>
+
+                <h2>Participantes do Projeto Sig Metamat</h2> <br>
+                <p>O aluno Gustavo Alencar Silva foi o bolsista selecionado para atuar no Projeto Sig Metamat, cujo o
+                    mesmo tinha por função desenvolver um banco de dados das atividades mineradoras do estado de Mato
+                    Grosso, sendo responsável pelo desenvolvimento do BackEnd e FrontEnd do banco de dados.</p> <br>
+
+                <h2>Objetivo do Projeto Sig Metamat</h2> <br>
+                <p>O projeto teve como objetivo o desenvolvimento de um banco de dados geográfico online referente às
+                    atividades mineradoras no estado de Mato Grosso para Companhia Mato Grossense de Mineração -
+                    METAMAT, desta maneira sendo responsável por modelar, desenvolver e alimentar o banco de dados,
+                    assim como desenvolver a interface gráfica, elaborar Relatório e Manual do Usuário.</p> <br>
+
+                <h2>Desenvolvimento do Projeto</h2> <br>
+                <p>
+                    O processo para modelar o banco de dados foi feito por meio da ferramenta OMT-G Design, onde se
+                    desenvolveu o modelo de banco de dados georreferenciado a partir do padrão OMT-G. Para o
+                    desenvolvimento do banco de dados, utilizou-se do SGBD PostgreSQL (10.6) e o framework Django
+                    (2.1.1) da linguagem de programação Python. A interface gráfica foi desenvolvida em Html5,
+                    utilizando-se do framework Bootstrap 4 e OpenLayers (5.2.0) e testada e avaliada pelos pesquisadores
+                    do projeto a ser atendido pelo software.
+
+                </p> <br>
+                <h2>Resultados Alcançados</h2> <br>
+                <p>Foi desenvolvido um banco de dados georreferenciado, onde o mesmo permite a demonstração dos dados de
+                    forma tabular e suas relações, bem como as relações geoespaciais. A interface desenvolvida
+                    disponibiliza para o usuário a visualização georreferenciada do estado de Mato Grosso, permitindo
+                    algumas interações diretamente a esta, bem como formulários de pesquisa para filtros de análise de
+                    dados socioeconômicos e de mineração, além de possibilitar a visualização georreferenciada dos
+                    processos minerários e diversos filtros, como por tipo de substrato. Foi desenvolvido um breve
+                    manual do usuário para facilitar uma primeira utilização do software e também foi desenvolvido um
+                    artigo que foi submetido, primeiramente, ao evento ERIGO.</p> <br>
+
+            </section>
+        </article>
+    </main>
+    <footer>
+        <hr>
+        <section id="rodape">
+            <p>Gabrielly Héber Azevedo da Cruz, 2023</p>
+            <p>Campus Universitário Dep. Renê Barbour - Barra do Bugres-MT.</p>
+        </section>
+    </footer>
+    <!--Funções de JavaScript-->
+    <script src="javascript/responsividade.js"></script>
+    <script src="javascript/menu.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+span{
+    font-weight: bolder;
+}
+h1.aplicacoes{
+    text-align: left;
+}
+
+p.aplicacoes{
+    text-indent: 0px;
+}
+div.Registros{
+    display: block;
+}
+div.DocRegistros{
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+div.DocRegistros a{
+    color: darkblue;
+    text-decoration: none;
+}
+
+div.DocRegistros:hover{
+    background-color: rgba(0, 0, 0, 0.418);
+
+}
+
+p.TituloRegistro{
+    text-align: center;
+    text-indent: 0px;
+}
+p.TituloRegistro:hover{
+    text-decoration: underline;
+}

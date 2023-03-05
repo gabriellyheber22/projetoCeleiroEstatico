@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Celeiro</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="estilos/afasia.css">
+   
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <div class="cabecalho">
+            
+                <div class=" itemCabecalho">
+                    <a href="index.html">
+                        <img src="imagens/logos/Brasão Unemat - Colorido (35).png" alt="Logo da UNEMAT">
+                    </a>
+                </div>
+                <div class=" itemCabecalho">
+                    <a href="index.html">
+                        <h1>Projeto Celeiro</h1>
+                    </a>
+                </div>
+
+               
+            
+            <div class=" itemCabecalho">
+                <menu id="itens">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li class="menu-suspenso" onclick="clickMenuSuspenso()">
+
+                            <a href="#" class="link-suspenso">O Celeiro<span id="icon-menu-suspenso"
+                                    class="material-symbols-outlined">arrow_drop_down</span></a>
+                            <!--Icone para indicar menu suspenso-->
+
+
+                            <div class="itens-menu" id="itensSuspensos">
+                                <a href="bolsista.html">Bolsistas</a>
+                                <a href="seletivo.html">Seletivo</a>
+                        </li>
+                        <li class="menu-suspenso" onclick="clickMenuSuspenso2()">
+                            <a href="#" class="link-suspenso">Projetos<span id="icon-menu-suspenso2"
+                                    class="material-symbols-outlined">arrow_drop_down</span></a>
+                            <div class="itens-menu" id="itensSuspensos2">
+                                <a href="projetoSigmetamat.html">Projeto Sigmetamat</a>
+                                <a href="projetoAfasia.html">Projeto Afasia</a>
+                        </li>
+                        <li><a href="aplicacoes.html">Aplicações</a></li>
+                        <li><a href="parcerias.html">Parcerias</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </menu>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <article>
+            <section id="artigo">
+                <h1 class="Afasia">Projeto Afasia</h1>
+                <hr>
+                <br>
+                <picture>
+                    <source media="(max-width: 450px)" srcset="imagens/logos/Afasia-(275).jpg" type="image/jpg">
+                    <source media="(max-width:830px)" srcset="imagens/logos/Afasia(400).jpg" type="image/jpg">
+                    <source media="(max-width: 987px)" srcset="imagens/logos/Afasia(650).jpg" type="image/jpg">
+                    <source media="(max-width:1270px )" srcset="imagens/logos/Afasia(768).jpg" type="image/jpg">
+                    <img src="imagens/logos/Afasia.jpg" alt="Exemplificação de Afasia">
+                </picture>
+                <br>
+
+                <h2 class="Afasia">Definição de Afasias</h2><br>
+                <p>
+                    Segundo o Neurologista do Hospital Israelense Albert Einstein Dr. Rodrigo Meirelles, as <a href="https://vidasaudavel.einstein.br/afasia-o-que-e-quais-sao-os-sintomas-causas-e-tratamentos/" target="_blank">Afasias</a> são condições que alteram a capacidade dos paciente de se comunicar de forma adequada, afetando a capacidade de falar ou se expressar verbalmente, afeta também a compreensão da linguagem verbal, a compreensão da linguagem escrita (leitura) e a capacidade de escrever.
+                    
+                </p><br>
+                <h2 class="Afasia">O que é o Projeto Afasia?</h2><br>
+                <p>O Projeto Afasia iniciou em 01 de outubro do ano de 2019 em uma iniciativa pertencente ao Projeto de Extensão Celeiro de Software administrado pelo Prof.Ms. Alexandre Berndt em parceria com a Fundação de Amparo a Pesquisa do Estado de Mato Grosso (FAPMET), Universidade do Estado de Mato Grosso (UNEMAT) Campus Dep. Renê Barbour e a Prefeitura Municipal de Barra do Bugres. O Projeto Afasia trabalhou juntamente com a Unidade Descentralizada de Reabilitação (UDR) da Prefeitura de Municipal de Barra do Bugre-MT, com o objetivo de desenvolver um aplicativo que auxiliasse as pessoas que sofrem de Afasia, em especial os pacientes da UDR.</p><br>
+                
+                <h2 class="Afasia">Participantes do Projeto Afasia</h2><br>
+                <p>Em 27 de junho de 2019, o Prof.Ms. Alexandre Berndt abriu as inscrições para o processo seletivo de concessão de duas (02) bolsas de estudos para o desenvolvimento do software, onde o acadêmico Bruno Oliveira Silva e a acadêmica Gabrielly Héber Azevedo da Cruz foram selecionados. Bruno de Oliveira Silva, acadêmico do curso de Ciências da Computação, ingresso na UNEMAT no semestre de 2019/1 e ficou responsável pelo desenvolvimento do BackEnd do Software. Gabrielly Héber Azevedo da Cruz, acadêmica do curso de Ciências da Computação, ingressa na UNEMAT no semestre de 2018/1 e ficou responsável pelo desenvolvimento do FrontEnd da aplicação.</p><br>
+                
+                <h2 class="Afasia">Objetivo do Projeto Afasia</h2><br>
+                <p>
+                    O aplicativo em desenvolvimento no Projeto Afasia, tem por objetivo permiti a mobilidade, praticidade, atualização em tempo real dos elementos de comunicação que facilitaria ainda mais a vida dos pacientes acometido de Afasia. As imagens e símbolos para comunicação desenvolvidos e categorizados por Mayer Jhonson, são utilizados por profissionais da saúde durante as sessões terapêuticas, como forma de comunicação com os pacientes. No entanto a baixa praticidade e atualização das pastas de comunicação restringem o uso desta ferramenta de comunicação em ambientes públicos pelos pacientes, por este motivo, os aplicativos VozAtiva e VozAtivai, foi desenvolvido pensando especificamente nessas pessoas, sendo um aplicativo complexo em seu desenvolvimento e ao mesmo tempo simples em sua utilização. A simplicidade de navegação, imagens e ícones não dúbios utilizados na interface da aplicação foi pensada considerando limitações físicas do grupo de pessoas que pretende-se atender.
+                    
+                </p><br>
+                <h2 class="Afasia">Desenvolvimento do Projeto</h2><br>
+                <p>O desenvolvimento do software foi realizado através de entrevistas com a equipe multidisciplinar da UDR, em conjunto com o levantamento de dados bibliográficos. Para melhor experiência do usuário, a definição da interface ideal foi feita através de testes com a utilização de interfaces de baixa fidelidade, onde com a colaboração da equipe multidisciplinar e dos pacientes da UDR foi definido como interface ideal os dispositivos com telas de 10.1 de polegadas, observado que desta maneira o dispositivo terá melhor atendimento as necessidade de seus usuários.</p><br>
+
+            </section>
+            <section id="artigos-publicados">
+                <h3>Artigos Publicados</h3>
+                    <hr>
+                    <br>
+                <div class="CartaoArtigo">
+                    <div class="DocArtigo">
+                        <a class="DocArtigo" href="arquivos/Anais_Estendidos_CBIS2020_ Comunicação Para Todos.pdf" target="_blank">
+                            <img class="DocArtigo" src="imagens/logos/Artigos_Publicados(200).png" alt="Artigos Pulicados">
+                    </div>
+                    <div class="TituloArtigo">
+                        <p class="TituloArtigo">Comunicação Para Todos: Afasia</p>
+                    </div>
+                    
+
+                </a>
+                </div>
+            </section>
+
+        </article>
+    </main>
+    <footer>
+
+
+        <hr>
+        <section id="rodape">
+            <p>Gabrielly Héber Azevedo da Cruz, 2023</p>
+            <p>Campus Universitário Dep. Renê Barbour - Barra do Bugres-MT.</p>
+        </section>
+    </footer>
+    <!--Funções de JavaScript-->
+    <script src="javascript/responsividade.js"></script>
+    <script src="javascript/menu.js"></script>
+</body>
+
+</html>

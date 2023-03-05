@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Celeiro</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="estilos/bolsista.css">
+    
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <div class="cabecalho">
+            
+                <div class=" itemCabecalho">
+                    <a href="index.html">
+                        <img src="imagens/logos/Brasão Unemat - Colorido (35).png" alt="Logo da UNEMAT">
+                    </a>
+                </div>
+                <div class=" itemCabecalho">
+                    <a href="index.html">
+                        <h1>Projeto Celeiro</h1>
+                    </a>
+                </div>
+
+                
+            
+            
+            <div class=" itemCabecalho">
+                <menu id="itens">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li class="menu-suspenso" onclick="clickMenuSuspenso()">
+
+                            <a href="#" class="link-suspenso">O Celeiro<span id="icon-menu-suspenso"
+                                    class="material-symbols-outlined">arrow_drop_down</span></a>
+                            <!--Icone para indicar menu suspenso-->
+
+
+                            <div class="itens-menu" id="itensSuspensos">
+                                <a href="bolsista.html">Bolsistas</a>
+                                <a href="seletivo.html">Seletivo</a>
+                        </li>
+                        <li class="menu-suspenso" onclick="clickMenuSuspenso2()">
+                            <a href="#" class="link-suspenso">Projetos<span id="icon-menu-suspenso2"
+                                    class="material-symbols-outlined">arrow_drop_down</span></a>
+                            <div class="itens-menu" id="itensSuspensos2">
+                                <a href="projetoSigmetamat.html">Projeto Sigmetamat</a>
+                                <a href="projetoAfasia.html">Projeto Afasia</a>
+                        </li>
+                        <li><a href="aplicacoes.html">Aplicações</a></li>
+                        <li><a href="parcerias.html">Parcerias</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </menu>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <article class="bolsista">
+            <section id="artigo">
+                
+                <h1 class="bolsista"> Bolsistas <img class="icone-bolsista" src="imagens/logos/icone-bolsista.png"
+                        alt="Icone de Bolsistas">
+                </h1>
+                <hr>
+                <br>
+                <picture>
+                    <img src="imagens/bolsista.jpg" width="80%"  alt="Bolsistas">
+                </picture>
+                <br>
+                <ul id="ul-bolsistas">
+
+                    <li class="li-bolsistas" onclick="clickBolsistaSuspenso()">
+                        <p class="p-suspenso">PROJETO 2018<span id="icon-bolsista-suspenso"
+                                class="material-symbols-outlined">arrow_drop_down</span></p>
+                        <!--Icone para indicar menu suspenso-->
+
+
+                        <div class="itens-bolsistas" id="bolsistasSuspensos">
+
+                            <p class="academicos"> Acadêmico:Gustavo Alencar Silva
+                                <br> Inicio da Bolsa: 17/11/2018
+                                <br> Fim da Bolsa: 31/10/2019
+                                <br> Status: Inativo
+                                <br> Bolsa: FAPEMAT   
+                            </p>
+
+                    </li>
+
+                    <li class="li-bolsistas" onclick="clickBolsistaSuspenso01()">
+                        <p class="p-suspenso">PROJETO 2019<span id="icon-bolsista-suspenso"
+                                class="material-symbols-outlined">arrow_drop_down</span></p>
+                        <!--Icone para indicar menu suspenso-->
+
+
+                        <div class="itens-bolsistas" id="bolsistasSuspensos01">
+
+                            <p class="academicos"> Acadêmico:Bruno de Oliveira
+                                <br> Inicio da Bolsa: 10/2019
+                                <br> Fim da Bolsa: 03/2020
+                                <br> Status: Inativo
+                                <br> Bolsa: FAPEMAT
+                            </p>
+                                <hr>
+                            <p class="academicos">
+                                Acadêmico: Gabrielly Héber Azevedo da Cruz
+                                <br> Inicio da Bolsa:10/2019
+                                <br> Fim da Bolsa: 10/2020
+                                <br> Status:Inativo
+                                <br> Bolsa: FAPEMAT
+                            </p>
+                        </div>
+                    </li>
+
+
+                    <li class="li-bolsistas" onclick="clickBolsistaSuspenso2()">
+                        <p class="p-suspenso">PROJETO 2020<span id="icon-bolsista-suspenso"
+                                class="material-symbols-outlined">arrow_drop_down</span></p>
+                        <!--Icone para indicar menu suspenso-->
+
+
+                        <div class="itens-bolsistas" id="bolsistasSuspensos2">
+
+                            <p class="academicos"> Acadêmico:Bruno de Oliveira
+                                <br> Inicio da Bolsa: 10/2020
+                                <br> Fim da Bolsa: 03/2021
+                                <br> Status: Inativo
+                                <br> Bolsa: FAPEMAT
+                            </p>
+                                <hr>
+                                <p class="academicos">
+                                 Acadêmico: Gabrielly Héber Azevedo da Cruz
+                                <br> Inicio da Bolsa:10/2020
+                                <br> Fim da Bolsa: 10/2021
+                                <br> Status:Inativo
+                                <br> Bolsa: FAPEMAT
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="li-bolsistas" onclick="clickBolsistaSuspenso3()">
+                        <p class="p-suspenso">PROJETO 2021<span id="icon-bolsista-suspenso"
+                                class="material-symbols-outlined">arrow_drop_down</span></p>
+                        <!--Icone para indicar menu suspenso-->
+
+
+                        <div class="itens-bolsistas" id="bolsistasSuspensos3">
+
+                            <p class="academicos"> Acadêmico:Bruno de Oliveira
+                                <br> Inicio da Bolsa: 10/2020
+                                <br> Fim da Bolsa: 03/2021
+                                <br> Status: Inativo
+                                <br> Bolsa: FAPEMAT
+                            </p>
+                        </div>
+                    </li>
+                    <!-- <li class="li-bolsistas" onclick="clickBolsistaSuspenso4()">
+                        <p class="p-suspenso">PROJETO 2022<span id="icon-bolsista-suspenso"
+                                class="material-symbols-outlined">arrow_drop_down</span></p> -->
+                        <!--Icone para indicar menu suspenso-->
+
+
+                        <!-- <div class="itens-bolsistas" id="bolsistasSuspensos4">
+
+                            <p class="academicos"> Acadêmico:Bruno de Oliveira
+                                <br> 
+                                <br> Inicio da Bolsa: ############
+                                <br> Fim da Bolsa: ############
+                                <br> Status: ############
+                                <br> Bolsa: ############
+
+                            </p>
+                        </div>
+                    </li> -->
+                    <!-- <li class="li-bolsistas" onclick="clickBolsistaSuspenso5()">
+                        <p class="p-suspenso">PROJETO 2023<span id="icon-bolsista-suspenso"
+                                class="material-symbols-outlined">arrow_drop_down</span></p>
+                        Icone para indicar menu suspenso-->
+
+
+                        <!-- <div class="itens-bolsistas" id="bolsistasSuspensos5">
+
+                            <p class="academicos"> Acadêmico:Bruno de Oliveira
+                                <br> 
+                                <br> Inicio da Bolsa: ############
+                                <br> Fim da Bolsa: ############
+                                <br> Status: ############
+                                <br> Bolsa: ############
+                            </p>
+                                <hr>
+                                <p class="academicos"> 
+                                <br> Acadêmico: #################
+                                <br> Inicio da Bolsa:############
+                                <br> Fim da Bolsa: ############
+                                <br> Status: ############
+                                <br> Bolsa:############
+                            </p>
+                        </div>
+                    </li>  -->
+                </ul>
+
+            </section>
+
+
+        </article>
+    </main>
+    <footer>
+
+        <hr>
+        <section id="rodape">
+            <p>Gabrielly Héber Azevedo da Cruz, 2023</p>
+            <p>Campus Universitário Dep. Renê Barbour - Barra do Bugres-MT.</p>
+        </section>
+    </footer>
+    <!--Funções de JavaScript-->
+    <script src="javascript/responsividade.js"></script>
+    <script src="javascript/menu.js"></script>
+    <script src="javascript/listaBolsista.js"></script>
+</body>
+
+</html>

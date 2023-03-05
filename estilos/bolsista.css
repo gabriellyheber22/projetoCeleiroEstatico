@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/*Estilos únicos da página Bolsista*/
+article.bolsista{
+
+
+margin: 0px;
+margin: auto;
+
+height: 100%;
+}
+h1.bolsista{
+    text-align: left;
+    text-shadow: none;
+    
+    padding-right: 50px;
+    
+    text-indent: 20px;
+    display: inline-block;
+}
+img#icone-bolsista{
+   margin-bottom: 0px;
+   
+}
+p.p-suspenso{
+    font-weight: bolder;
+}
+p.academicos{
+    text-indent: 0px;
+}
+ul#ul-bolsistas{
+    list-style-type: none;
+}
+ul li>p.p-suspenso{
+    background-color: #33552C;
+}
+ul li.li-bolsistas{
+    border: 1px solid white;
+}
+span#icon-menu-suspenso{
+    display: inline-block;
+    padding: 5px 0px;
+}
+span#icon-menu-suspenso2{
+    display: inline-block;
+    padding: 5px 0px;
+}
+.p-suspenso {
+   
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .li-bolsistas {
+    /* position: relative; */
+    display: block;
+  }
+  
+  .itens-bolsistas {
+    display: none;
+    /* position: absolute; */
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .itens-bolsistas p {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+  }
+  
+  .itens-bolsistas p:active {
+    background-color: #f1f1f1
+}
+  
+  .li-bolsistas:active .itens-bolsistas {
+    display: block;
+  }
+  
+  .li-bolsistas:active .link-suspenso {
+    background-color: #3e8e41;
+  }

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Celeiro</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="estilos/parcerias.css">
+    
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <div class="cabecalho">
+            
+                <div class=" itemCabecalho">
+                    <a href="index.html">
+                        <img src="imagens/logos/Brasão Unemat - Colorido (35).png" alt="Logo da UNEMAT">
+                    </a>
+                </div>
+                <div class=" itemCabecalho">
+                    <a href="index.html">
+                        <h1>Projeto Celeiro</h1>
+                    </a>
+                </div>
+
+              
+            
+            <div class=" itemCabecalho">
+                <menu id="itens">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li class="menu-suspenso" onclick="clickMenuSuspenso()">
+
+                            <a href="#" class="link-suspenso">O Celeiro<span id="icon-menu-suspenso"
+                                    class="material-symbols-outlined">arrow_drop_down</span></a>
+                            <!--Icone para indicar menu suspenso-->
+
+
+                            <div class="itens-menu" id="itensSuspensos">
+                                <a href="bolsista.html">Bolsistas</a>
+                                <a href="seletivo.html">Seletivo</a>
+                        </li>
+                        <li class="menu-suspenso" onclick="clickMenuSuspenso2()">
+                            <a href="#" class="link-suspenso">Projetos<span id="icon-menu-suspenso2"
+                                    class="material-symbols-outlined">arrow_drop_down</span></a>
+                            <div class="itens-menu" id="itensSuspensos2">
+                                <a href="projetoSigmetamat.html">Projeto Sigmetamat</a>
+                                <a href="projetoAfasia.html">Projeto Afasia</a>
+                        </li>
+                        <li><a href="aplicacoes.html">Aplicações</a></li>
+                        <li><a href="parcerias.html">Parcerias</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </menu>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <article>
+            <section id="artigo">
+                <h1>Parcerias</h1>
+                <hr>
+                <h2>Projeto Sigmetamat</h2>
+                <hr>
+                <p>O Projeto Sigmetamat foi apoiado pela Universidade do Estado de Mato Grosso (UNEMAT), em conjunto com a Fundação
+                    de Amparo a Pesquisa do Estado de Mato Grosso (FAPEMAT):</p>
+                <div class="Parceiros">
+                    <div class="LogoParceiros">
+                        <a href="https://unemat.br/" target="_blank">
+                            <img class="LogoParceiros" src="imagens/logos/Brasão Unemat - Colorido 200.png"
+                                alt="Logo Unemat">
+                            <p class="TituloParceiros">UNEMAT</p>
+                        </a>
+                    </div>
+                    <div class="LogoParceiros">
+                        <a href="https://www.fapemat.mt.gov.br/" target="_blank"><img class="LogoParceiros"
+                                src="imagens/logos/logo-fapemat (200).png" alt="Logo FAPEMAT">
+                            <p class="TituloParceiros"> FAPEMAT </p>
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <h2>Projeto Afasia</h2>
+                <hr>
+                <br>
+                <p>O Projeto <a href="https://vidasaudavel.einstein.br/afasia-o-que-e-quais-sao-os-sintomas-causas-e-tratamentos/" target="_blank">Afasia</a> foi apoiado pela Universidade do Estado de Mato Grosso (UNEMAT), em conjunto com a Fundação de Amparo
+                    a Pesquisa do Estado de Mato Grosso (FAPEMAT) e pela Prefeitura Municipal de Barra do Bugres-MT:
+                </p>
+                <div class="Parceiros">
+                    <div class="LogoParceiros">
+                        <a href="https://unemat.br/" target="_blank">
+                            <img class="LogoParceiros" src="imagens/logos/Brasão Unemat - Colorido 200.png"
+                                alt="Logo Unemat">
+                            <p class="TituloParceiros">UNEMAT</p>
+                        </a>
+                    </div>
+                    <div class="LogoParceiros">
+                        <a href="https://www.fapemat.mt.gov.br/" target="_blank"><img class="LogoParceiros"
+                                src="imagens/logos/logo-fapemat (200).png" alt="Logo FAPEMAT">
+                            <p class="TituloParceiros"> FAPEMAT </p>
+                        </a>
+                    </div>
+                    <div class="LogoParceiros">
+                        <a href="https://www.barradobugres.mt.gov.br/" target="_blank"><img class="LogoParceiros"
+                                src="imagens/logos/prefeitura.png" alt="Logo Prefeitura de Barra do Bugres">
+                            <p class="TituloParceiros"> Prefeitura de Barra do Bugres </p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+
+        </section>
+        <hr>
+        <section id="rodape">
+            <p>Gabrielly Héber Azevedo da Cruz, 2023</p>
+            <p>Campus Universitário Dep. Renê Barbour - Barra do Bugres-MT.</p>
+        </section>
+    </footer>
+    <!--Funções de JavaScript-->
+    <script src="javascript/responsividade.js"></script>
+    <script src="javascript/menu.js"></script>
+</body>
+
+</html>

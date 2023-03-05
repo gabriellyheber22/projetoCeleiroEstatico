@@ -1,0 +1,33 @@
+@charset "UTF-8";
+div.Parceiros{
+    display: block;
+    border-radius: 10px;
+    margin: auto;
+  
+}
+div.LogoParceiros{
+    display: inline-block;
+    border: 1px solid grey;
+   border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 275px;
+    margin: 10px;
+    
+}
+div.LogoParceiros:hover{
+    background-color: rgba(0, 0, 0, 0.418);
+}
+div.LogoParceiros a{
+    
+    color: darkblue;
+    
+}
+img.LogoParceiros {
+    display: block;
+    margin: auto;
+}
+p.TituloParceiros{
+    text-align: center;
+    text-indent: 0px;
+}

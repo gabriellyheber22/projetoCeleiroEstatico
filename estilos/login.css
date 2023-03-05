@@ -1,0 +1,123 @@
+@charset "UTF-8";
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+     box-sizing: border-box; 
+}
+body, html, main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #33552C;
+}
+header{
+    display: none;
+}
+main{
+    position: relative;
+    background-image: url("../imagens/logos/Campus-Barra-do-Bugres.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section#login{
+    background-color: white;
+    width: 275px;
+    height: 515px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    
+    overflow: hidden;
+
+}
+label{
+    display: none;
+}
+div.campo{
+    background-color: #33552C;
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+    border-radius: 8px;
+
+}
+div.campo span{
+    
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    width: 40px;
+    padding: 5px;
+}
+div.campo input{
+    font-size: 1em;
+    height: 98%;
+   transform: translateY(-2px);
+    border-radius: 8px;
+    padding: 4px;
+    width: calc(100% - 40px);
+    border: 1px solid #33552C;
+    
+}
+div.campo input:focus-within{
+    background-color: white;
+    border: none;
+}
+
+div#imagem{
+   background-image: url("../imagens/logos/Brasão Unemat - Colorido 200.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center; 
+    width: 275px;
+    height: 200px;
+    display: block;
+    
+   border-bottom: 1px solid #33552C;
+}
+div#imagem img{
+    display: block;
+    align-items: center;
+}
+div#formulario{
+    display: block;
+    padding: 10px;
+}
+div#fomulario p{
+    font-size: 0.8em;
+}
+form>input[type=submit]{
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    background-color: #33552C;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+     cursor: pointer;
+     display: block;
+}
+form>input[type=submit]:hover{
+    background-color: #46743d;
+}
+/*form>a.botao{
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    border-radius: 5px;
+    display: block;
+    margin-top: 5px;
+    padding-top: 5px;
+    text-align: center;
+    border: 1px solid #20361b;
+    background-color:white;
+    color:  #20361b;
+    cursor: pointer;
+}
+form>a.botao:hover{
+    background-color: #5e9c4f;
+    color: white;
+}*/

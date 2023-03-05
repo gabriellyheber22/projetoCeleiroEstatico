@@ -1,0 +1,40 @@
+@charset "UTF-8";
+form{
+    padding: 20px;
+   
+}
+input#botao{
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    background-color:  #33552C;
+    margin: 10px;
+    
+    
+}
+div#botao{
+    text-align: right;
+    
+}
+input, select, fieldset{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+   font-size: medium;
+}
+fieldset{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.534);
+}
+input#iNome{
+    display: inline-block;
+    width: 40%;
+  
+}
+input#iNumero{
+    width: 11%;
+}
+input#iBairro, input#iCidade{
+    width: 20%;
+}

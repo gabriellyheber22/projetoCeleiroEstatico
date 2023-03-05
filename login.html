@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Celeiro</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="estilos/login.css">
+    <link rel="stylesheet" href="estilos/media-queries-login.css">
+    <link rel="stylesheet" href="estilos/media-queries-index.css">
+    <!-- <link rel="stylesheet" href="estilos/media-queries-menu.css"> -->
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <div class="cabecalho">
+            <div class="cabecalhoCelular">
+                <div class="itemCabecalhoCelular itemCabecalho">
+                    <a href="index.html">
+                        <img src="imagens/logos/Brasão Unemat - Colorido (35).png" alt="Logo da UNEMAT">
+                    </a>
+                </div>
+                <div class="itemCabecalhoCelular itemCabecalho">
+                    <a href="index.html">
+                        <h1>Projeto Celeiro</h1>
+                    </a>
+                </div>
+
+                <div class="itemCabecalhoCelular">
+                    <span id="icon" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+                </div>
+            </div>
+            
+            <div class=" itemCabecalho">
+                <menu id="itens">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li class="menu-suspenso" onclick="clickMenuSuspenso()">
+
+                            <a href="#" class="link-suspenso">O Celeiro<span id="icon-menu-suspenso"
+                                    class="material-symbols-outlined">arrow_drop_down</span></a>
+                            <!--Icone para indicar menu suspenso-->
+
+
+                            <div class="itens-menu" id="itensSuspensos">
+                                <a href="bolsista.html">Bolsistas</a>
+                                <a href="seletivo.html">Seletivo</a>
+                        </li>
+                        <li class="menu-suspenso" onclick="clickMenuSuspenso2()">
+                            <a href="#" class="link-suspenso">Projetos<span id="icon-menu-suspenso2"
+                                    class="material-symbols-outlined">arrow_drop_down</span></a>
+                            <div class="itens-menu" id="itensSuspensos2">
+                                <a href="projetoSigmetamat.html">Projeto Sigmetamat</a>
+                                <a href="projetoAfasia.html">Projeto Afasia</a>
+                        </li>
+                        <li><a href="aplicacoes.html">Aplicações</a></li>
+                        <li><a href="parcerias.html">Parcerias</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </menu>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section id="login">
+            <a href="index.html">
+            <div id="imagem">
+                
+            </div>
+        </a>
+            <div id="formulario">
+                <h1 class="formulario">Login</h1>
+                <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações do
+                    ambiente </p>
+                <form action="login.php" method="get" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            person
+                        </span><input type="email" name="email" id="iEmail" autocomplete="email"
+                            placeholder="insira seu email" required max="30">
+                        <label for="iEmail">Email</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            vpn_key_alert
+                        </span><input type="password" name="senha" id="iSenha" autocomplete="current-password"
+                            placeholder="insira sua senha" required min="8" max="20">
+                        <label for="iSenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <!-- <a href="esqueci.html" class="botao">Esqueci a senha<span class="material-symbols-outlined">
+                            mail
+                        </span></a> -->
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+    <!--Funções de JavaScript-->
+    <script src="javascript/responsividade.js"></script>
+    <script src="javascript/menu.js"></script>
+</body>
+
+</html>
